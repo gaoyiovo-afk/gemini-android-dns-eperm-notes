@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+raw/
+private/
+*.log
+*.xml
+*.pb
+*.dex
+*.apk
+*.pcap
+*.pcapng
+*backup*.json
+.env
+.env.*
+*.pem
+*.key

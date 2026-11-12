@@ -1,0 +1,660 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-11-12",
+  "source": "Android statsd NetworkDnsEventReported (atom 116), selected caller metric only",
+  "redaction": "Application UIDs, metric IDs, timestamps, device/account identifiers and all raw logs omitted. This atom does not contain queried domain names.",
+  "sampling_note": "These are sampled lookups, not the total number of lookups; duplicate aggregate-metric copies have been excluded.",
+  "events": [
+    {
+      "sample": 1,
+      "caller": "google-play-services",
+      "event_type": 1,
+      "return_code": 7,
+      "latency_us": 2956,
+      "hints_ai_flags": 1024,
+      "network_type": {
+        "value": 8,
+        "name": "CELLULAR_VPN"
+      },
+      "private_dns_mode": 1,
+      "sampling_rate_denominator": 10,
+      "queries": [
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 0,
+          "latency_us": 410,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 1,
+          "latency_us": 533,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 2,
+          "latency_us": 481,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 0,
+          "latency_us": 466,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 1,
+          "latency_us": 173,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 2,
+          "latency_us": 147,
+          "linux_errno": 1
+        }
+      ]
+    },
+    {
+      "sample": 2,
+      "caller": "google-play-services",
+      "event_type": 1,
+      "return_code": 7,
+      "latency_us": 2879,
+      "hints_ai_flags": 1024,
+      "network_type": {
+        "value": 8,
+        "name": "CELLULAR_VPN"
+      },
+      "private_dns_mode": 1,
+      "sampling_rate_denominator": 10,
+      "queries": [
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 0,
+          "latency_us": 280,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 1,
+          "latency_us": 160,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 2,
+          "latency_us": 233,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 0,
+          "latency_us": 143,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 1,
+          "latency_us": 1016,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 2,
+          "latency_us": 205,
+          "linux_errno": 1
+        }
+      ]
+    },
+    {
+      "sample": 3,
+      "caller": "google-play-services",
+      "event_type": 1,
+      "return_code": 7,
+      "latency_us": 3975,
+      "hints_ai_flags": 1024,
+      "network_type": {
+        "value": 1,
+        "name": "CELLULAR"
+      },
+      "private_dns_mode": 1,
+      "sampling_rate_denominator": 110,
+      "queries": [
+        {
+          "rcode": 254,
+          "record_type": 28,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 0,
+          "latency_us": 147,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 0,
+          "latency_us": 158,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 2,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 1,
+          "latency_us": 306,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 2,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 2,
+          "latency_us": 67,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 3,
+          "latency_us": 54,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 4,
+          "latency_us": 43,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 5,
+          "latency_us": 33,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 0,
+          "latency_us": 38,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 2,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 1,
+          "latency_us": 43,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 2,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 2,
+          "latency_us": 39,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 3,
+          "latency_us": 41,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 4,
+          "latency_us": 37,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 5,
+          "latency_us": 38,
+          "linux_errno": 1
+        }
+      ]
+    },
+    {
+      "sample": 4,
+      "caller": "google-play-services",
+      "event_type": 1,
+      "return_code": 7,
+      "latency_us": 2334,
+      "hints_ai_flags": 1024,
+      "network_type": {
+        "value": 8,
+        "name": "CELLULAR_VPN"
+      },
+      "private_dns_mode": 1,
+      "sampling_rate_denominator": 10,
+      "queries": [
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 0,
+          "latency_us": 531,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 1,
+          "latency_us": 197,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 2,
+          "latency_us": 183,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 0,
+          "latency_us": 219,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 1,
+          "latency_us": 149,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 2,
+          "latency_us": 147,
+          "linux_errno": 1
+        }
+      ]
+    },
+    {
+      "sample": 5,
+      "caller": "google-play-services",
+      "event_type": 1,
+      "return_code": 7,
+      "latency_us": 1852,
+      "hints_ai_flags": 1024,
+      "network_type": {
+        "value": 8,
+        "name": "CELLULAR_VPN"
+      },
+      "private_dns_mode": 1,
+      "sampling_rate_denominator": 10,
+      "queries": [
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 0,
+          "latency_us": 450,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 1,
+          "latency_us": 192,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 2,
+          "latency_us": 140,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 0,
+          "latency_us": 127,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 1,
+          "latency_us": 118,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 2,
+          "latency_us": 155,
+          "linux_errno": 1
+        }
+      ]
+    },
+    {
+      "sample": 6,
+      "caller": "google-play-services",
+      "event_type": 1,
+      "return_code": 7,
+      "latency_us": 2233,
+      "hints_ai_flags": 1024,
+      "network_type": {
+        "value": 8,
+        "name": "CELLULAR_VPN"
+      },
+      "private_dns_mode": 1,
+      "sampling_rate_denominator": 10,
+      "queries": [
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 0,
+          "latency_us": 611,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 1,
+          "latency_us": 188,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 2,
+          "latency_us": 117,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 0,
+          "latency_us": 136,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 1,
+          "latency_us": 101,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 2,
+          "latency_us": 123,
+          "linux_errno": 1
+        }
+      ]
+    },
+    {
+      "sample": 7,
+      "caller": "google-play-services",
+      "event_type": 1,
+      "return_code": 7,
+      "latency_us": 1288,
+      "hints_ai_flags": 1024,
+      "network_type": {
+        "value": 8,
+        "name": "CELLULAR_VPN"
+      },
+      "private_dns_mode": 1,
+      "sampling_rate_denominator": 10,
+      "queries": [
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 0,
+          "latency_us": 224,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 1,
+          "latency_us": 74,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 0,
+          "dns_server_index": 2,
+          "latency_us": 44,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 0,
+          "latency_us": 42,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 1,
+          "latency_us": 41,
+          "linux_errno": 1
+        },
+        {
+          "rcode": 254,
+          "record_type": 1,
+          "cache_status": 1,
+          "ip_version": 1,
+          "protocol": 1,
+          "retry": 1,
+          "dns_server_index": 2,
+          "latency_us": 41,
+          "linux_errno": 1
+        }
+      ]
+    }
+  ]
+}

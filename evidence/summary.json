@@ -1,0 +1,26 @@
+{
+  "sampled_lookup_count": 7,
+  "query_attempt_count": 49,
+  "lookup_return_codes": {
+    "7": 7
+  },
+  "query_linux_errnos": {
+    "1": 49
+  },
+  "query_record_types": {
+    "1": 48,
+    "28": 1
+  },
+  "query_rcodes": {
+    "254": 49
+  },
+  "network_types": {
+    "CELLULAR": 1,
+    "CELLULAR_VPN": 6
+  },
+  "lookup_latency_us": {
+    "min": 1288,
+    "max": 3975
+  },
+  "sampling_weighting_applied": false
+}
